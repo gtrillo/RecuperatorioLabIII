@@ -125,7 +125,6 @@ const json = [
   console.log("entre")
     if (chkId.checked) {
       stringTable += "<th id='labelId'>Id</th>";
-      abrirFila();
     }
     if (chkNombre.checked) {
       stringTable += "<th id='labelNombre'>Nombre</th>";
